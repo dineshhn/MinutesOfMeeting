@@ -1,7 +1,11 @@
 datasets
-torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch --index-url https://download.pytorch.org/whl/cu118
+torchvision --index-url https://download.pytorch.org/whl/cu118
+torchaudio --index-url https://download.pytorch.org/whl/cu118
 ffmpeg
 ffmpeg-python
 pydub
 evaluate
-nltk rouge-score datasets
+nltk
+rouge-score
+datasets
